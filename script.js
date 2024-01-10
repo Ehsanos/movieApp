@@ -6,7 +6,7 @@ const input=document.getElementById('search');
 const main=document.getElementById('main')
 const next=document.getElementById('next');
 const prev=document.getElementById('prev');
-
+const num=document.getElementById('num')
 let i=1;
 getMovie(api);
 
@@ -40,6 +40,8 @@ prev.addEventListener('click',()=>{
 })
 
 function showMovies(movies){
+
+    num.innerText=i;
     if(i==1)
         prev.setAttribute('disabled','disabled')
     main.innerHTML="";
