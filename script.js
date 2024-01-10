@@ -1,10 +1,13 @@
-const api='https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=c355b54828379ffd70496e45d1fd90a8';
+const api='https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=c355b54828379ffd70496e45d1fd90a8&page=';
 const imgMovie='https://image.tmdb.org/t/p/w1280';
 const search='https://api.themoviedb.org/3/search/movie?api_key=c355b54828379ffd70496e45d1fd90a8&query="';
 const form=document.getElementById('form');
 const input=document.getElementById('search');
 const main=document.getElementById('main')
+const next=document.getElementById('next');
+const prev=document.getElementById('prev');
 
+let i=1;
 getMovie(api);
 
 form.addEventListener('submit',(e)=>{
@@ -19,9 +22,26 @@ form.addEventListener('submit',(e)=>{
 
 })
 
+next.addEventListener('click',()=>{
+prev.removeAttribute('disabled')
+    i++
+    let temp=api+i
+    getMovie(temp)
+    console.log(temp)
+})
+
+prev.addEventListener('click',()=>{
+    if(i==1)
+        prev.setAttribute('disabled','disabled')
+    i--
+        let temp=api+i
+    getMovie(temp)
+    console.log(temp)
+})
 
 function showMovies(movies){
-
+    if(i==1)
+        prev.setAttribute('disabled','disabled')
     main.innerHTML="";
     movies.forEach((item)=>{
 
