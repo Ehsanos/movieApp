@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a3471c-30f1-4761-a37b-2054883741ac" name="Changes" comment="add next prev buttons">
+    <list default="true" id="35a3471c-30f1-4761-a37b-2054883741ac" name="Changes" comment="add some features">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
@@ -62,7 +62,7 @@
       <workItem from="1704798648530" duration="776000" />
       <workItem from="1704822210320" duration="4968000" />
       <workItem from="1704872636479" duration="7128000" />
-      <workItem from="1704883677576" duration="5344000" />
+      <workItem from="1704883677576" duration="10317000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="news">
       <created>1704881360599</created>
@@ -82,7 +82,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠٣" />
       <updated>1704886292912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL؜٠٠٠٠٤" summary="add some features">
+      <created>1704889310189</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٤" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٤" />
+      <updated>1704889310189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="news" />
     <MESSAGE value="add next prev buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add next prev buttons" />
+    <MESSAGE value="add some features" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some features" />
   </component>
 </project>

@@ -11,7 +11,8 @@ body {
 header {
     background-color: var(--secondary-color);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    padding: 10px 0;
 }
 
 #search {
@@ -135,4 +136,12 @@ main {
     padding: 10px;
     border-radius: 5px;
     font-size: 28px;
+}
+#num2{
+    color: green;
+    background-color: lavender;
+    border-radius: 5px;
+    font-size: 28px;
+    max-width: 40px;
+    text-align: center;
 }
