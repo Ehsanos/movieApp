@@ -88,12 +88,13 @@ main {
     right: 0;
     padding: 2rem;
     max-height: 100%;
-    transform: translateY(100%);
+    transform: translateX(102%);
     transition: transform 0.5s ease-in-out;
+    opacity: 0.9;
 }
 
 .movie:hover .overview {
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 .buttons {
